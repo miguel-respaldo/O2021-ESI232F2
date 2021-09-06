@@ -5,4 +5,5 @@ num2 = eval(input("Escribe el segundo número: "))
 # Realizo la operación
 suma = num1 + num2
 
+# Imprimo el resultado
 print("El resultado es", suma)
