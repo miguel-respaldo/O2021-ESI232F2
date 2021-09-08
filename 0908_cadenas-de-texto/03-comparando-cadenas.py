@@ -15,3 +15,5 @@ print("a" > "A")  # Verdadero
 #  0123456......
 
 print("A" < "B")
+print("--------------------")
+print("asa" < "oso")
