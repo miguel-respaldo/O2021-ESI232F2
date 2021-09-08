@@ -14,3 +14,8 @@ print(s)
 
 s4 = 3 * s1
 print(s4)
+
+print("-------------------------")
+
+print("algo" in s1)
+print("gramo" not in s2)
