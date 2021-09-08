@@ -16,4 +16,5 @@ print("a" > "A")  # Verdadero
 
 print("A" < "B")
 print("--------------------")
-print("asa" < "oso")
+print("asa" < "oso")     # Verdadero
+print("cosa" <= "cosas") # Verdadero
