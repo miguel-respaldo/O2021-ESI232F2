@@ -18,3 +18,8 @@ print("A" < "B")
 print("--------------------")
 print("asa" < "oso")     # Verdadero
 print("cosa" <= "cosas") # Verdadero
+print("CASA" >= "casa")  # Falso
+print("....................")
+print("casas" >= "casa") # Verdadero
+print("hola" == "HOLA")  # Falso
+print("mama" != "papa")  # Verdadero
