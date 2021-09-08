@@ -10,3 +10,8 @@ print("--------------------")
 
 print("a" < "A")  # Falso
 print("a" > "A")  # Verdadero
+
+#  ABCDEFGHIJKL....abcdefghijkl....
+#  0123456......
+
+print("A" < "B")
