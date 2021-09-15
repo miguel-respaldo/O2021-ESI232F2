@@ -20,3 +20,4 @@ print("6:",frase1[22:])
 print("7:",frase1[8:17])
 
 print("8:",frase1[:-1])
+print("8:",frase1[:-9])
