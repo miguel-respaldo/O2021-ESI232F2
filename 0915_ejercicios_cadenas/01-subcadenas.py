@@ -14,4 +14,5 @@ print("2:",frase1[4]) # Espacio en blanco " "
 print("3:",frase1[:5])
 print("4:",frase3[:2])
 
-print("4:",frase3[2:])
+print("5:",frase3[2:])
+print("6:",frase1[22:])
