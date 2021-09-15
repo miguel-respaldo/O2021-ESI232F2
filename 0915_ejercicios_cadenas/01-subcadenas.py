@@ -23,3 +23,5 @@ print("8:",frase1[:-1])
 print("9:",frase1[:-9])
 
 print("10:",frase1[::-1])
+print("11:",frase2[::-1])
+print("12:",frase3[::-1])
