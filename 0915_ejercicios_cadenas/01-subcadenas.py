@@ -10,4 +10,4 @@ print("La frase 2 tiene de largo:", len(frase2))
 print(frase1[5]) # Letra "e"
 print(frase1[4]) # Espacio en blanco " "
 
-print(frase[:5])
+print(frase1[:5])
