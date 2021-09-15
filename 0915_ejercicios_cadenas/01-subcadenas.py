@@ -12,4 +12,4 @@ print("1:",frase1[5]) # Letra "e"
 print("2:",frase1[4]) # Espacio en blanco " "
 
 print("3:",frase1[:5])
-print("4:",frase1[:2])
+print("4:",frase3[:2])
