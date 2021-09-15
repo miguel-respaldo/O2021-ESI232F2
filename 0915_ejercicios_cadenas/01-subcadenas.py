@@ -1,6 +1,7 @@
 frase1 = "Esta es una frase que no dice nada"
 #         0123456789012345678901234567890123
 frase2 = "Hola"
+frase3 = "0123456789"
 
 # Para saber el largo de una cadena de texto se usa "len"
 
@@ -11,3 +12,4 @@ print("1:",frase1[5]) # Letra "e"
 print("2:",frase1[4]) # Espacio en blanco " "
 
 print("3:",frase1[:5])
+print("4:",frase1[:2])
