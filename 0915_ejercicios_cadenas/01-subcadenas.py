@@ -7,7 +7,7 @@ frase2 = "Hola"
 print("La frase 1 tiene de largo:", len(frase1))
 print("La frase 2 tiene de largo:", len(frase2))
 
-print(frase1[5]) # Letra "e"
-print(frase1[4]) # Espacio en blanco " "
+print("1:",frase1[5]) # Letra "e"
+print("2:",frase1[4]) # Espacio en blanco " "
 
-print(frase1[:5])
+print("3:",frase1[:5])
