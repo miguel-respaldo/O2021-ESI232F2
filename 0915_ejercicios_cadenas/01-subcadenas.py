@@ -17,4 +17,4 @@ print("4:",frase3[:2])
 print("5:",frase3[2:])
 print("6:",frase1[22:])
 
-print("7:",frase1[8:16])
+print("7:",frase1[8:17])
