@@ -11,15 +11,19 @@ opcion = eval(input("Opción: "))
 
 if opcion == 1:
     print("La suma es", num1 + num2)
-elif opcion == 2:
+
+if opcion == 2:
     print("La resta es", num1 - num2)
-elif opcion == 3:
+
+if opcion == 3:
     print("La multiplicación es", num1 * num2)
-elif opcion == 4:
+
+if opcion == 4:
     if num2 == 0:
         print("No se puede hacer la división.")
     else:
         print("La división es", num1 / num2)
-else:
-    print("Opción invalida.")
 
+
+if opcion <= 0 or opcion >= 5:
+    print("opcion invalida")
