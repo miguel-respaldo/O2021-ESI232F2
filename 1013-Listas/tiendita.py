@@ -37,10 +37,11 @@ while opcion_menu_principal != 9:
             opcion_menu_compras = eval(input("Ingresa la Opción: "))
 
             if opcion_menu_compras == 1:
-                print("No.   Nombre  Cantidad   Precio ")
+                print("{:<5s}{:<15s}{:>8s}{:>8s}".format("No.","Nombre","Cantidad","Precio"))
                 for numero in range(len(botanas)):
-                    print(numero,"  ",botanas[numero],"  ",
-                            botanas_stock[numero], "  ", botanas_precio[numero])
+                    print("{:<5d}{:<15s}{:>8d}{:>8.2f}".format(numero,
+                        botanas[numero], botanas_stock[numero],
+                        botanas_precio[numero]))
 
             elif opcion_menu_compras == 2:
                 print("mostrar refrescos")
