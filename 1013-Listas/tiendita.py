@@ -48,10 +48,10 @@ while opcion_menu_principal != 9:
                 print("-----------------------------------------------")
                 print("¿Cúal producto desear agregar al carrito?")
                 print("Nota: puedes ponder 0 para salir")
-                producto = eval(input("Producto: ")
+                producto = eval(input("Producto: "))
 
                 if producto != 0:
-                    cantidad = eval(input("¿Cuantos articulos?: ")
+                    cantidad = eval(input("¿Cuantos articulos?: "))
                     carrito.append(producto)
                     carrito.append(cantidad)
 
@@ -66,10 +66,10 @@ while opcion_menu_principal != 9:
                 print("-----------------------------------------------")
                 print("¿Cúal producto desear agregar al carrito?")
                 print("Nota: puedes ponder 0 para salir")
-                producto = eval(input("Producto: ")
+                producto = eval(input("Producto: "))
 
                 if producto != 0:
-                    cantidad = eval(input("¿Cuantos articulos?: ")
+                    cantidad = eval(input("¿Cuantos articulos?: "))
                     carrito.append(producto)
                     carrito.append(cantidad)
 
@@ -83,10 +83,10 @@ while opcion_menu_principal != 9:
                 print("-----------------------------------------------")
                 print("¿Cúal producto desear agregar al carrito?")
                 print("Nota: puedes ponder 0 para salir")
-                producto = eval(input("Producto: ")
+                producto = eval(input("Producto: "))
 
                 if producto != 0:
-                    cantidad = eval(input("¿Cuantos articulos?: ")
+                    cantidad = eval(input("¿Cuantos articulos?: "))
                     carrito.append(producto)
                     carrito.append(cantidad)
 
