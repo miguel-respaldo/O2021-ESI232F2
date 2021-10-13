@@ -45,9 +45,19 @@ while opcion_menu_principal != 9:
                 print("-----------------------------------------------")
 
             elif opcion_menu_compras == 2:
-                print("mostrar refrescos")
+                print("{:<5s}{:<15s}{:>8s}{:>8s}".format("No.","Nombre","Cantidad","Precio"))
+                for numero in range(len(refrescos)):
+                    print("{:<5d}{:<15s}{:>8d}{:>8.2f}".format(numero+1,
+                        refrescos[numero], refrescos_stock[numero],
+                        refrescos_precio[numero]))
+                print("-----------------------------------------------")
             elif opcion_menu_compras == 3:
-                print("mostrar bebidas alcoholicas")
+                print("{:<5s}{:<15s}{:>8s}{:>8s}".format("No.","Nombre","Cantidad","Precio"))
+                for numero in range(len(be_alco)):
+                    print("{:<5d}{:<15s}{:>8d}{:>8.2f}".format(numero+1,
+                        be_alco[numero], be_alcho_stock[numero],
+                        be_alco_precio[numero]))
+                print("-----------------------------------------------")
 
 
     elif opcion_menu_principal == 3:
