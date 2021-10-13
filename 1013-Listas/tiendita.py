@@ -43,7 +43,7 @@ while opcion_menu_principal != 9:
                             botanas_stock[numero], "  ", botanas_precio[numero])
 
             elif opcion_menu_compras == 2:
-                print("mostrar refrescos)"
+                print("mostrar refrescos")
             elif opcion_menu_compras == 3:
                 print("mostrar bebidas alcoholicas")
 
