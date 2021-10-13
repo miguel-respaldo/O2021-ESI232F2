@@ -12,6 +12,9 @@ be_alco = ["cervesa", "tequila", "vino", "mezcal"]
 be_alco_precio = [40, 120, 150, 200]
 be_alco_stock = [30, 40, 50, 70]
 
+carrito = []
+carrito_cantidad = []
+
 opcion_menu_principal = 0
 
 while opcion_menu_principal != 9:
@@ -43,6 +46,16 @@ while opcion_menu_principal != 9:
                         botanas[numero], botanas_stock[numero],
                         botanas_precio[numero]))
                 print("-----------------------------------------------")
+                print("¿Cúal producto desear agregar al carrito?")
+                print("Nota: puedes ponder 0 para salir")
+                producto = eval(input("Producto: ")
+
+                if producto != 0:
+                    cantidad = eval(input("¿Cuantos articulos?: ")
+                    carrito.append(producto)
+                    carrito.append(cantidad)
+
+                print("-----------------------------------------------")
 
             elif opcion_menu_compras == 2:
                 print("{:<5s}{:<15s}{:>8s}{:>8s}".format("No.","Nombre","Cantidad","Precio"))
@@ -51,12 +64,32 @@ while opcion_menu_principal != 9:
                         refrescos[numero], refrescos_stock[numero],
                         refrescos_precio[numero]))
                 print("-----------------------------------------------")
+                print("¿Cúal producto desear agregar al carrito?")
+                print("Nota: puedes ponder 0 para salir")
+                producto = eval(input("Producto: ")
+
+                if producto != 0:
+                    cantidad = eval(input("¿Cuantos articulos?: ")
+                    carrito.append(producto)
+                    carrito.append(cantidad)
+
+                print("-----------------------------------------------")
             elif opcion_menu_compras == 3:
                 print("{:<5s}{:<15s}{:>8s}{:>8s}".format("No.","Nombre","Cantidad","Precio"))
                 for numero in range(len(be_alco)):
                     print("{:<5d}{:<15s}{:>8d}{:>8.2f}".format(numero+1,
                         be_alco[numero], be_alco_stock[numero],
                         be_alco_precio[numero]))
+                print("-----------------------------------------------")
+                print("¿Cúal producto desear agregar al carrito?")
+                print("Nota: puedes ponder 0 para salir")
+                producto = eval(input("Producto: ")
+
+                if producto != 0:
+                    cantidad = eval(input("¿Cuantos articulos?: ")
+                    carrito.append(producto)
+                    carrito.append(cantidad)
+
                 print("-----------------------------------------------")
 
 
