@@ -1,0 +1,24 @@
+Problema 1 Punto de equilibrio, cambio en las variables
+
+Un negocio de pizzas para llevar tiene costos fijos de $41 250 mensuales,
+un precio de venta de $100 por pizza, y un costo variable unitario de $45.
+Actualmente vende alrededor de 1 200 pizzas al mes.
+
+Se pide:
+1. Calcule el punto de equilibrio en unidades.
+
+  costos fijos totales / (precio de venta - costo variable)
+
+2. Determine de manera independiente el nuevo punto de equilibrio en cada caso, suponiendo que:
+a) Los costos variables disminuyen 10 por ciento.
+b) Los costos fijos disminuyen 8 por ciento.
+c) El precio por pizza aumenta a $110.
+
+3. El gerente del establecimiento desea realizar una inversión en publicidad en
+radio con un costo de $3 000 mensuales, porque considera que ese esfuerzo
+contribuiría a incrementar 15% las ventas. ¿Cree usted que conviene realizar
+esta inversión? Justifique su respuesta determinando el incremento en la utilidad.
+
+(pv * uv) - cf - (cvu * uv)
+
+
