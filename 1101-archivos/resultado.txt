@@ -1,0 +1,2 @@
+La suma de todo es 63
+El promedio es: 9.0
