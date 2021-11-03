@@ -26,7 +26,8 @@ def listar_directorio(archivo):
     for linea in archivo:
         # split sirve para crear una lista separada por comas
         lista = linea.split(",")
-        print("{:<20s}{:>15s}{:>30s}".format(lista[0], lista[1], lista[2]))
+        # strip quita los enters al final del texto
+        print("{:<20s}{:>15s}{:>30s}".format(lista[0], lista[1], lista[2].strip()))
 
 def agregar_al_directorio(nombre_archivo):
     nombre = input("Escribe el nombre: ")
