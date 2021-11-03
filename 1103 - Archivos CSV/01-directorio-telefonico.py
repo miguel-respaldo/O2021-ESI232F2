@@ -40,6 +40,25 @@ def agregar_al_directorio(nombre_archivo):
     return archivo
 
 
+def borrar_del_directorio(nombre_archivo):
+    nombre = input("¿Que nombre quieres borrar?: ")
+    nuevo = open("temporal.csv","w")
+    archivo = open(nombre_archivo, "r")
+    for linea in archivo:
+        lista = linea.split(",")
+        # lower nos transforma a minusculas el texto
+        if lista[0].lower() == nombre.lower():
+            continue
+        nuevo.write(linea)
+    archivo.close()
+    nuevo.close()
+    os.remove(nombre_archivo)
+    # rename renombre el archivo de temporal.csv al directorio.csv
+    os.rename("temporal.csv", nombre_archivo)
+    archivo = open(nombre_archivo, "r")
+
+
+
 opcion = 1
 archivo = crear_directorio("directorio.csv")
 
@@ -54,7 +73,8 @@ while opcion != 5:
         archivo.close()
         archivo = agregar_al_directorio("directorio.csv")
     elif opcion == 3:
-        pass
+        archivo.close()
+        archivo = borrar_del_directorio("directorio.csv")
     elif opcion == 4:
         pass
     elif opcion == 5:
