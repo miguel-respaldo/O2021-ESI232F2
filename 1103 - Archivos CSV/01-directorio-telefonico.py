@@ -48,6 +48,7 @@ def borrar_del_directorio(nombre_archivo):
         lista = linea.split(",")
         # lower nos transforma a minusculas el texto
         if lista[0].lower() == nombre.lower():
+            print("Se borro", lista[0])
             continue
         nuevo.write(linea)
     archivo.close()
@@ -56,6 +57,7 @@ def borrar_del_directorio(nombre_archivo):
     # rename renombre el archivo de temporal.csv al directorio.csv
     os.rename("temporal.csv", nombre_archivo)
     archivo = open(nombre_archivo, "r")
+    return archivo
 
 
 
