@@ -51,7 +51,7 @@ while opcion != 5:
         listar_directorio(archivo)
     elif opcion == 2:
         archivo.close()
-        archivo = agregar_al_directorio("diretorio.csv")
+        archivo = agregar_al_directorio("directorio.csv")
     elif opcion == 3:
         pass
     elif opcion == 4:
