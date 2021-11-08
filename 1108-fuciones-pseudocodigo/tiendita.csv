@@ -1,0 +1,13 @@
+Productos,Precio,Stock,Categoria
+cacahuates,10,7,botanas
+chocolates,20.5,10,botanas
+papas,15.5,20,botanas
+gomitas,13,14,botanas
+coca,16.25,10,refrescos
+sprite,17,15,refrescos
+fanta,15.5,12,refrescos
+manzanita,17,16,refrescos
+cervesa,40,30,bebidas alcoholicas
+tequila,120,40,bebidas alcoholicas
+vino,150,50,bebidas alcoholicas
+mezcal,200,70,bebidas alcoholicas
